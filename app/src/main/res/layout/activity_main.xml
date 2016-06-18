@@ -17,7 +17,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="40sp"
-        android:textColor="#black"
         android:textStyle="bold" />
 
 
