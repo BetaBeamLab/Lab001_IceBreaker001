@@ -17,7 +17,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/textView1" />
 
 
     <ImageButton
@@ -27,5 +28,6 @@
         android:id="@+id/imageButton"
         android:src="@drawable/small"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="breakIce" />
 </RelativeLayout>
