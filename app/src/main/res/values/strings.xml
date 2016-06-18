@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lab001_IceBreaker001</string>
+    <string name="gameTitle">Break The Ice!</string>
+    <string name="description_1">iceBlockLevel_1</string>
 </resources>
