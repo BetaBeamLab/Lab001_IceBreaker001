@@ -18,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:id="@+id/textView1" />
+        android:id="@+id/textView1"
+        android:textColor="@color/colorPrimary" />
 
 
     <ImageButton
@@ -29,5 +30,21 @@
         android:src="@drawable/small"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:onClick="breakIce" />
+        android:onClick="breakIce"
+        android:background="#f9f9f9"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Level"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:textColor="#ffffff" />
+
+
 </RelativeLayout>
